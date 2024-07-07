@@ -31,6 +31,51 @@ ul>li>a {
 
 }
 
+.section-title {
+    color: rgb(24, 24, 24);
+    font-size: 35px;
+}
+
+.section-description {
+    color: rgb(117, 117, 117);
+    font-size: 18px;
+}
+
+/* about */
+.about {
+    background-color: rgb(255, 248, 243);
+    margin-top: 130px;
+    text-align: center;
+    padding: 100px;
+}
+
+.skill {
+    text-align: center;
+}
+
+.skills {
+    display: flex;
+    gap: 10px;
+
+    padding: 10px;
+}
+
+.about-skill {
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    padding: 10px;
+}
+
+.about-items {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* main */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
 /* banner style */
 .banner {
     display: flex;
@@ -60,6 +105,8 @@ nav {
     background-image: url(../images/developer.png), url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: top left, bottom right;
+
+
 }
 
 
