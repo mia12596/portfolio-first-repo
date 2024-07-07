@@ -53,6 +53,10 @@ ul>li>a {
     text-align: center;
 }
 
+.resume {
+    text-align: center;
+}
+
 .skills {
     display: flex;
     gap: 10px;
@@ -109,9 +113,42 @@ nav {
 
 }
 
+.btn {
+    text-align: center;
+    margin-top: 10px;
+}
+
 
 
 nav ul {
     display: flex;
     align-items: center;
+}
+
+.section-title {
+    text-align: center;
+}
+
+.parent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.last {
+    background-color: bisque;
+    width: 1600px;
+    height: 780px;
+    margin-top: 20px;
+}
+
+.final {
+    display: flex;
+    justify-content: space-between;
+    padding: 230px;
+}
+
+footer input [type="text"] {
+    display: block;
+    height: 64px;
+    width: 400px;
 }
