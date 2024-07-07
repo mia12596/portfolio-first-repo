@@ -137,18 +137,29 @@ nav ul {
 .last {
     background-color: bisque;
     width: 1600px;
-    height: 780px;
+    height: 400px;
     margin-top: 20px;
 }
 
 .final {
     display: flex;
-    justify-content: space-between;
-    padding: 230px;
+    gap: 100px;
+    padding: 130px 230px;
 }
 
-footer input [type="text"] {
+footer input [type="text"],
+footer input [type="email"],
+footer textarea {
     display: block;
     height: 64px;
-    width: 400px;
+    width: 100%;
+    display: block;
+    color: white;
+    font-size: 16px;
+    padding: 15px 15px;
+    margin-bottom: 24px;
+}
+
+.fini {
+    width: 50%;
 }
